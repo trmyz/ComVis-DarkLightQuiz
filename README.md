@@ -33,6 +33,6 @@ Aplikasi kuis interaktif yang memanfaatkan **sensor cahaya** pada perangkat untu
 
 ---
 ## Cara Menjalankan
-Buka proyek di Android Studio.
-Sinkronkan dependensi Gradle dan jalankan aplikasi di emulator atau perangkat Android.
-File hasil build (.apk/.aab) tersedia di menu Releases.
+* Buka proyek di Android Studio.
+* Sinkronkan dependensi Gradle dan jalankan aplikasi di emulator atau perangkat Android.
+* File hasil build (.apk/.aab) tersedia di menu Releases.
