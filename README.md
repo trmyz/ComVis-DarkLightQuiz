@@ -5,11 +5,13 @@ Aplikasi kuis interaktif yang memanfaatkan **sensor cahaya** pada perangkat untu
 ---
 
 ## Fitur Utama
+* Kuis Multi-Soal: Menampilkan soal, pilihan jawaban, dan instruksi cahaya di tiap tahap.
 
-* **Kuis Interaktif Multi-Soal:** Menyajikan pertanyaan, pilihan jawaban, serta instruksi aksi pencahayaan pada tiap tahap soal.
-* **Validasi Perpindahan Soal via Sensor Cahaya:** Pemain baru bisa berpindah ke soal berikutnya setelah sensor cahaya membaca kondisi **Gelap** atau **Terang** sesuai perintah aktif.
-* **Pembacaan Intensitas Cahaya *Real-Time*:** Memantau nilai intensitas cahaya dari sensor perangkat (misalnya dalam satuan *lux*) secara langsung dan membandingkannya dengan ambang batas (*threshold*) yang ditentukan.
-* **Indikator Status Sensor:** Menampilkan status pencahayaan yang terbaca saat ini agar pemain mengetahui apakah kondisi gelap/terang sudah terpenuhi.
+* Validasi Sensor Cahaya: Membuka soal/jawaban setelah kondisi Gelap atau Terang sesuai perintah terdeteksi.
+
+* Pembacaan Lux Real-Time: Membandingkan intensitas cahaya sensor dengan batas threshold (lux).
+
+* Indikator Status Cahaya: Menampilkan status gelap/terang dan kesiapan soal secara langsung.
 
 ---
 
@@ -28,4 +30,9 @@ Aplikasi kuis interaktif yang memanfaatkan **sensor cahaya** pada perangkat untu
 
 * **Platform / Framework:** *Android Studio / Java *
 * **Sensor Perangkat:** Ambient Light Sensor (`Sensor.TYPE_LIGHT` pada Android atau *Sensor API* )
-* **Version Control:** Git & GitHub
+
+---
+## Cara Menjalankan
+Buka proyek di Android Studio.
+Sinkronkan dependensi Gradle dan jalankan aplikasi di emulator atau perangkat Android.
+File hasil build (.apk/.aab) tersedia di menu Releases.
